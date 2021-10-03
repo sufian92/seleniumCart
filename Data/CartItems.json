@@ -1,0 +1,13 @@
+[{"ProductName":"Cauliflower - 1 Kg","Quantiry":1,"Price":60,"Total":60,"search": [{"codeOne": "Cauliflower"},
+  {"codeTwo": "Beetroot"},
+  {"codeThree": "Brinjal"}
+]},
+{"ProductName":"Beetroot - 1 Kg","Quantiry":1,"Price":32,"Total":32,"search": [{"codeOne": "Beans"},
+  {"codeTwo": "Pumpkin"},
+  {"codeThree": "Apple"}
+]},
+  {"ProductName":"Brinjal - 1 Kg","Quantiry":1,"Price":35,"Total":35,"search": [{"codeOne": "Banana"},
+  {"codeTwo": "Mango"},
+  {"codeThree": "Pears"}
+]}
+]

@@ -1,0 +1,8 @@
+datasources:fc11e1c9008f088124420859bda218d853a44627
+commandlineoptions:65f95c924ba97541f47949701c4e3c51192a5b43
+suitesfrom:no-suites-from-option
+file:01751284b058492e4a8d8f5aebb8ef4195aa6ac0
+--test Cart.user should be able to add to cart
+--test Cart.user should be able to add to cart from json
+--test Cart.user should be able to search
+--test Cart.user should be able to add to cart from db
