@@ -7,6 +7,7 @@ Resource  ../Resources/PO/CheckOutPage.robot
 *** Keywords ***
 Go To Application
     ProductsPage.load
+    ProductsPage.Verify Page Loaded
 
 Add Products to Cart
     ProductsPage.Verify Page Loaded
