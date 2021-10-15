@@ -7,7 +7,7 @@ Resource  ../Resources/CartApp.robot  # for lower level keywords in test cases
 Resource  ../Resources/JsonParser.robot  # for lower level keywords in test cases
 Resource  ../Resources/DBReader.robot  # for lower level keywords in test cases
 Resource  ../Data/InputData.robot  # for lower level keywords in test case
-Test Setup  Common.Begin Web Test
+Test Setup  Common.Begin Web Test Grid
 Test Teardown  Common.End Web Test
 
 
