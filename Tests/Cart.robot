@@ -37,17 +37,7 @@ user should be able to search
    @{searches} =  Get Products With Search Codes
 
 
-user should be able to add to cart from db
-   @{products} =  Get Products From db
-   CartApp.Go To Application
-   CartApp.Add Products to Cart From JSON  @{products}
-   CartApp.Verify number of products in cart
-   CartApp.Procced To CheckOut
-   CartApp.Verify Checkout Page Loaded
-   CartApp.Verify Product List From JSON  @{products}
-
 Sample visual regression test case  # Name of the example test case
-    [Tags]  temp
     CartApp.Go To Application
     Open Eyes    SeleniumLibrary  5
     Capture Full Screen
