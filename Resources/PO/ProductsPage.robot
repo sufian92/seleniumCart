@@ -16,6 +16,7 @@ Load
 
 Verify Page Loaded
     WAIT UNTIL ELEMENT IS VISIBLE  ${PRODUCTS_CONTAINER}
+    sleep  3s
 
 Add Products to Cart
     FOR    ${product}    IN    @{PRODUCTS}
