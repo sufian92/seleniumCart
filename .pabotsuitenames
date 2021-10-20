@@ -1,9 +1,8 @@
-datasources:5e21b9e9b883fdc7d97e8cbf28e29d2079b63a14
+datasources:ff40fc53d615163992add817b943ed69f2b0f771
 commandlineoptions:520a0ca4e4feec0cc17af343eb1a05936f3d0fa8
 suitesfrom:no-suites-from-option
-file:7dd12fa10e26e910a26ae9725ed9cf89161bd80d
+file:f9622e669a6f0fa41608ea49e563047091192f92
 --test Tests.Cart.user should be able to add to cart
 --test Tests.Cart.user should be able to add to cart from json
 --test Tests.Cart.user should be able to search
---test Tests.Cart.user should be able to add to cart from db
 --test Tests.Cart.Sample visual regression test case
