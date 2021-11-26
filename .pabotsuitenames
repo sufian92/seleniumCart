@@ -1,8 +1,5 @@
-datasources:ff40fc53d615163992add817b943ed69f2b0f771
+datasources:17f315d18f299ad315e050e4696048f364781e91
 commandlineoptions:520a0ca4e4feec0cc17af343eb1a05936f3d0fa8
 suitesfrom:no-suites-from-option
-file:f9622e669a6f0fa41608ea49e563047091192f92
---test Tests.Cart.user should be able to add to cart
---test Tests.Cart.user should be able to add to cart from json
---test Tests.Cart.user should be able to search
---test Tests.Cart.Sample visual regression test case
+file:3d16c39d83732eb9c232cba1cd962de30e301f7e
+--test Visual.Sample visual regression test case with redact
