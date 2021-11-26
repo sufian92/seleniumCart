@@ -8,7 +8,6 @@ Begin Web Test Grid
     Open Browser  about:blank  ${BROWSER}
     ...  remote_url=${remote_url}
     ...  desired_capabilities=${CAPABILITIESCHROME}
-
     Maximize Browser Window
 
 Begin Web Test
