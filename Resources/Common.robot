@@ -13,7 +13,6 @@ Begin Web Test Grid
 
 Begin Web Test
     Open Browser  about:blank  ${BROWSER}
-    Set Window Size  1360  1020
     Maximize Browser Window
 
 End Web Test
