@@ -9,7 +9,8 @@
 @{_tmp_edge}
     ...  browserName: MicrosoftEdge
 
-${BROWSER} =  chrome
+
+${BROWSER} =  headlesschrome
 ${URL} =  https://rahulshettyacademy.com/seleniumPractise/#/
 ${CAPABILITIES}     ${EMPTY.join(${_tmp})}
 ${CAPABILITIESCHROME}     ${EMPTY.join(${_tmp_chrome})}
