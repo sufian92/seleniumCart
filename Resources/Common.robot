@@ -13,7 +13,6 @@ Begin Web Test Grid
 
 Begin Web Test
     Open Browser  about:blank  ${BROWSER}  remote_url=http://18.118.211.236:30641/wd/hub
-    Set Window Size  2560  1600
     Maximize Browser Window
 
 End Web Test
