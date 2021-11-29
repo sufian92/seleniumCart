@@ -7,7 +7,7 @@ Resource  ../Resources/CartApp.robot  # for lower level keywords in test cases
 Resource  ../Resources/JsonParser.robot  # for lower level keywords in test cases
 Resource  ../Resources/DBReader.robot  # for lower level keywords in test cases
 Resource  ../Data/InputData.robot  # for lower level keywords in test case
-Test Setup  Common.Begin Web Test Grid
+Test Setup  Common.Begin Web Test
 Test Teardown  Common.End Web Test
 
 
@@ -20,5 +20,6 @@ ${element} =  css=.search-keyword
 Sample visual regression test case with redact  # Name of the example test case
     CartApp.Go To Application
     Open Eyes    SeleniumLibrary
+    Capture Full Screen  name=full-screen  redact=${redact}
     Capture Element  ${element}  name=element
     Compare Images

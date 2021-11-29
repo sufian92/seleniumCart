@@ -10,13 +10,13 @@
     ...  browserName: MicrosoftEdge
 
 
-${BROWSER} =  chrome
+${BROWSER} =  headlesschrome
 ${URL} =  https://rahulshettyacademy.com/seleniumPractise/#/
 ${CAPABILITIES}     ${EMPTY.join(${_tmp})}
 ${CAPABILITIESCHROME}     ${EMPTY.join(${_tmp_chrome})}
 ${CAPABILITIESFIREFOX}     ${EMPTY.join(${_tmp_firefox})}
 ${CAPABILITIESEDGE}     ${EMPTY.join(${_tmp_edge})}
-${remote_url}       http://18.117.114.223:30641/wd/hub
+${remote_url}       http://18.118.211.236:30641/wd/hub
 &{PRODUCT_ONE}  ProductName=Cauliflower - 1 Kg  Quantiry=1  Price=60  Total=60
 &{PRODUCT_TWO}  ProductName=Beetroot - 1 Kg  Quantiry=1  Price=32  Total=32
 &{PRODUCT_THREE}  ProductName=Brinjal - 1 Kg  Quantiry=1  Price=35  Total=35
