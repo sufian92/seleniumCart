@@ -13,7 +13,6 @@ Begin Web Test Grid
 
 Begin Web Test
     Open Browser  about:blank  ${BROWSER}  remote_url=${remote_url}
-    Set Window Size  800  600
     Maximize Browser Window
 
 End Web Test
