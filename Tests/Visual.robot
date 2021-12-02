@@ -18,8 +18,8 @@ ${element} =  css=.search-keyword
 *** Test Cases ***
 
 Sample visual regression test case with redact  # Name of the example test case
+    Open Eyes
     CartApp.Go To Application
-    Open Eyes    SeleniumLibrary
     Capture Full Screen  name=full-screen  redact=${redact}
     Capture Element  ${element}  name=element
     Compare Images

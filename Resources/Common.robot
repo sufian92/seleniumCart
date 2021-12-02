@@ -8,11 +8,12 @@ Begin Web Test Grid
     Open Browser  about:blank  ${BROWSER}
     ...  remote_url=${remote_url}
     ...  desired_capabilities=${CAPABILITIESCHROME}
-    Set Window Size  1360  1600
+    Set Window Size  800  600
     Maximize Browser Window
 
 Begin Web Test
-    Open Browser  about:blank  ${BROWSER}  remote_url=http://18.118.211.236:30641/wd/hub
+    Open Browser  about:blank  ${BROWSER}  remote_url=${remote_url}
+    Set Window Size  800  600
     Maximize Browser Window
 
 End Web Test
