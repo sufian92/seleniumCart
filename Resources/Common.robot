@@ -1,6 +1,6 @@
 *** Settings ***
 Library  SeleniumLibrary
-
+Library    RobotEyes
 *** Variables ***
 
 *** Keywords ***
@@ -13,7 +13,9 @@ Begin Web Test Grid
 
 Begin Web Test
     Open Browser  about:blank  ${BROWSER}  remote_url=${remote_url}
+    Set Window Size  1920  1080
     Maximize Browser Window
+    Open Eyes
 
 End Web Test
     Close Browser
